@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>UnityEditor.Lumin.Extensions</name>
+	</assembly>
+	<members>
+		<member name="T:UnityEditor.Lumin.Packaging.Manifest.Application">
+			<summary>Access to application run-time data.</summary>
+		</member>
+		<member name="T:UnityEditor.Lumin.Packaging.Manifest.Component">
+			<summary>Base class for everything attached to GameObjects.</summary>
+		</member>
+	</members>
+</doc>
