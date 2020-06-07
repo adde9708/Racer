@@ -1,45 +1,35 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
 
-public class LightColorScript : MonoBehaviour 
-{
+public class LightColorScript : MonoBehaviour {
 
 	public Light lt;
 
 	// Use this for initialization
 
-	void Start () 
+	void Start ()
 
 	{
 
-		lt = GetComponent<Light>();
+		lt = GetComponent<Light> ();
 
 		lt.color = Color.red;
 
 	}
 
-
-
-
 	// Update is called once per frame
 
-	void Update ()
-	{
+	void Update () {
 
-
-
-		if(Input.GetKey(KeyCode.B))
+		if (Input.GetKey (KeyCode.B))
 
 		{
 
 			lt.color = Color.red;
 
-
-
-
 		}
 
-		if (Input.GetKey(KeyCode.N))
+		if (Input.GetKey (KeyCode.N))
 
 		{
 
